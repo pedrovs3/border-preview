@@ -15,7 +15,7 @@ topRight.addEventListener('input', function() {
 
 bottomLeft.addEventListener('input', function() {
     box.style.borderBottomLeftRadius = `${bottomLeft.value}px`;
-})
+});
 
 bottomRight.addEventListener('input', function() {
     box.style.borderBottomRightRadius = `${bottomRight.value}px`;
@@ -25,6 +25,6 @@ btn.addEventListener('click', function () {
     navigator.clipboard.writeText(`border-radius: ${topLeft.value}px ${topRight.value}px ${bottomRight.value}px ${bottomLeft.value}px;`);
 
     alert("Propriedade copiada!!");
-})
+});
 
 
